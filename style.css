@@ -13,3 +13,29 @@ img{
     justify-content: center;
     margin: 0 auto;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+label{
+    font-size: 20px;
+    color: blueviolet;
+    margin-bottom: 10px;
+
+}
+input{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
